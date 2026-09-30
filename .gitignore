@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+~$*.xlsx
+.ipynb_checkpoints/
+data/processed/Mapping_Global_China_Phase1a_UNESCO.xlsx
