@@ -2,7 +2,7 @@
 
 The project runs in three stages: a feasibility study (Phases 0-7), a feasibility report to the supervisor, and then ML exploration and scale-up only after approval. Items marked *(supervisor)* come from the supervisor's brief; the rest are working suggestions.
 
-Last updated: 2026-09-30.
+Last updated: 2026-10-05.
 
 ## Phase 0: Admin and setup
 
@@ -29,16 +29,16 @@ Feasibility items 1 (identify data sources) and 4 (incorporate UNESCO data syste
 - [x] Embassy websites in host countries
 - [x] Universities and research institutes
 
-**1c. Host-country and diaspora sources** *(supervisor)*
+**1c. Host-country and diaspora sources** *(supervisor)*: first pass done 2026-10-05
 
-- [ ] Host-country heritage registers and institutions
-- [ ] Records of Chinatowns, temples, cemeteries, clan and native-place associations, schools, ports, mining and railway sites
+- [x] Host-country heritage registers and institutions
+- [x] Records of Chinatowns, temples, cemeteries, clan and native-place associations, schools, ports, mining and railway sites
 
-**1d. Non-site data** *(supervisor)*
+**1d. Non-site data** *(supervisor)*: first pass done 2026-10-05
 
-- [ ] Legal agreements, heritage-protection frameworks and bilateral cooperation
-- [ ] UNESCO meetings and nominations, institutional partnerships and training
-- [ ] Archaeological and restoration projects involving Chinese institutions, foundations or companies
+- [x] Legal agreements, heritage-protection frameworks and bilateral cooperation
+- [x] UNESCO meetings and nominations, institutional partnerships and training
+- [x] Archaeological and restoration projects involving Chinese institutions and foundations (no source found yet for companies)
 
 ## Phase 2: Access assessment
 

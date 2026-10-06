@@ -10,7 +10,7 @@ It keeps each physical site separate from the actors and narratives attached to 
 
 - **Supervisor:** Prof. Maria Adele Carrai (University of Oxford)
 - **Researcher:** Quentin Mei (M.S. Data Science, Columbia University)
-- **Stage:** feasibility study, Phase 1 (source discovery and inventory)
+- **Stage:** feasibility study, Phase 1 (source discovery and inventory) first pass complete
 
 ## Status
 
@@ -19,9 +19,9 @@ It keeps each physical site separate from the actors and narratives attached to 
 | 0 | Admin, course credit, repo setup | In progress |
 | 1a | UNESCO data | Done (2026-09-30) |
 | 1b | Chinese government, embassy and research sources | Done (2026-09-30) |
-| 1c | Host-country and diaspora sources | Next |
-| 1d | Non-site data (agreements, partnerships, projects) | Not started |
-| 2 | Access assessment (APIs vs scraping) | Not started |
+| 1c | Host-country and diaspora sources | First pass done (2026-10-05) |
+| 1d | Non-site data (agreements, partnerships, projects) | First pass done (2026-10-05) |
+| 2 | Access assessment (APIs vs scraping) | Next |
 | 3 | Data model and entity matching | Not started |
 | 4 | Proof-of-concept dataset (3-4 regions) | Not started |
 | 5 | Tracking framing changes over time | Not started |
@@ -55,6 +55,11 @@ docs/           Roadmap, findings and data-lineage log
 | 1b Chinese Sources | 12 Chinese sources assessed for coverage, structure, access, history and framing |
 | 1b Framing Examples | 20 dated verbatim quotes (Chinese with English gloss) |
 | 1b Chinese Projects Abroad | 15 aid-restoration and joint-archaeology projects |
+| 1c Host & Diaspora Sources | 19 host-country, diaspora and cross-country sources (Malaysia, Central Asia, Cambodia, Kenya, US, Australia) |
+| 1c Framing Examples | 7 examples of how host-country bodies describe sites |
+| 1d Agreements (MFA DB) | 31 heritage-related records from China's Foreign Ministry treaty database |
+| 1d Non-site Data Sources | 13 sources for agreements, legal frameworks, UNESCO meetings, partnerships, training and projects |
+| 1d Programmes & Outcomes | 11 dated funds, organisations and deliverables |
 
 The same sheets are in `data/processed/csv/` as UTF-8 CSV files.
 
@@ -64,10 +69,12 @@ The same sheets are in `data/processed/csv/` as UTF-8 CSV files.
 pip install -r requirements.txt
 python scripts/build_phase1a.py
 python scripts/build_phase1b.py
+python scripts/build_phase1c.py
+python scripts/build_phase1d.py
 python scripts/export_csv.py
 ```
 
-`build_phase1b.py` builds on the Phase 1a workbook, and the CSV export reads the combined workbook. The Phase 1a workbook is an intermediate file and is not committed.
+Run the build scripts in order from a clean start: each one adds its sheets to the workbook once. The CSV export reads the combined workbook. The Phase 1a workbook is an intermediate file and is not committed.
 
 ## Terms of use and attribution
 
@@ -79,4 +86,4 @@ This repository is for non-commercial research. Written permission from UNESCO s
 
 Quotes from Chinese government, embassy and research websites are short excerpts, each linked to its source for research and commentary.
 
-English glosses and the "link type" and "framing tags" columns are the researcher's own coding and have not yet been reviewed.
+English glosses and the "link type", "category" and "framing tags" columns are the researcher's own coding and have not yet been reviewed. Rows with a "Verification status" column say whether the wording was copied from the page or still needs checking against it.

@@ -2,6 +2,25 @@
 
 One entry per collection step: what was collected, from where, when, and how. Add new entries at the top.
 
+## 2026-10-05: Phase 1d, non-site data
+
+| Source | URL | Method | Output |
+| --- | --- | --- | --- |
+| China MFA treaty database | https://treaty.mfa.gov.cn/web/index.jsp | Browser (desktop app, US connection); keyword search for 文物, 文化遗产, 考古, 世界遗产, 非物质文化遗产; all result pages collected | `1d Agreements (MFA DB)` |
+| Belt and Road Forum project list (Oct 2023) | https://www.mfa.gov.cn/zyxw/202310/t20231018_11163412.shtml | Browser; lines filtered by keyword | `1d Programmes & Outcomes` |
+| Xinhua articles on the Asian fund (2023, 2025) | http://www.news.cn/ (see row URLs) | Browser; text copied from page | `1d Programmes & Outcomes` |
+| UNESCO pages (laws, sessions, partners, Core Data Portal, category 2 centres) | See row URLs | Web fetch (summarised) | `1d Non-site Data Sources` |
+| US State Department, Chinese media, China Daily | See row URLs | Web fetch (summarised) | `1d Non-site Data Sources`, `1d Programmes & Outcomes` |
+
+## 2026-10-05: Phase 1c, host-country and diaspora sources
+
+| Source | URL | Method | Output |
+| --- | --- | --- | --- |
+| Wikidata | https://query.wikidata.org/ | Browser; SPARQL counts of Chinatowns, Chinese temples, World Heritage IDs | `1c Host & Diaspora Sources` |
+| OpenStreetMap (Overpass API) | https://overpass.kumi.systems/api/interpreter | Browser; count of Taoist, Chinese-folk and Confucian places of worship in Malaysia. Queries for Cambodia and Kenya timed out | `1c Host & Diaspora Sources` |
+| Victorian Heritage Database API | https://api.heritagecouncil.vic.gov.au/v1/places?kw=chinese | Browser; JSON read directly | `1c Host & Diaspora Sources` |
+| Host-country registers and bodies (Malaysia, Kyrgyzstan, Cambodia, Kenya, US, Australia), CAAL, AidData, community lists | See row URLs | Web fetch (summarised); quotes need checking against pages | `1c Host & Diaspora Sources`, `1c Framing Examples` |
+
 ## 2026-09-30: Phase 1b, Chinese sources
 
 | Source | URL | Method | Output |
