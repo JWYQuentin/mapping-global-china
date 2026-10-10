@@ -1,6 +1,6 @@
 # Phase 1 findings
 
-Last updated: 2026-09-30. Full data in `data/processed/`.
+Last updated: 2026-10-05. Full data in `data/processed/`.
 
 ## 1a. UNESCO
 
@@ -38,6 +38,45 @@ Last updated: 2026-09-30. Full data in `data/processed/`.
 - Embassy sites can be crawled by URL pattern.
 - Chinese sites loaded normally from a US connection.
 - No open databases were found at overseas-Chinese institutions, so the diaspora layer will rely more on host-country sources (1c).
+
+## 1c. Host-country and diaspora sources
+
+| Finding | Detail |
+| --- | --- |
+| Official registers under-record Chinese sites | Malaysia's National Heritage buildings list (130 entries) has one clearly Chinese-community site, Leong San Tong Khoo Kongsi (2018). The US National Register codes ethnic association inconsistently, and the National Park Service says such places are undercounted. |
+| Host countries frame sites locally | Kenya's National Museums call Gedi "a testament to the Swahili culture" with no China reference. Kyrgyzstan lists Silk Roads sites under local and historical names. Cambodia's APSARA treats China as one technical partner among several. |
+| Best structured host source | The Victorian Heritage Database (Australia) has an open JSON API: 454 places match "chinese", each with coordinates and a significance statement. The US National Register offers spreadsheet downloads. |
+| Best seed list for temples | OpenStreetMap has 938 Taoist, Chinese-folk or Confucian places of worship in Malaysia (392 with Chinese names). Wikidata has 16 Chinese temples there, so it works as an ID crosswalk, not a site list. |
+| Institutional-engagement data | AidData's Global Chinese Development Finance dataset v3.0 (20,985 projects, 2000-2021) is downloadable and includes heritage aid, e.g. the RMB 90 million Angkor Royal Palace grant (2018). |
+| Central Asia inventory | UCL's CAAL database holds over 45,000 archaeological sites across five republics and Xinjiang; open to search, all rights reserved. |
+| Contested-site test case | Bukit Cina cemetery, Melaka: a 1980s development dispute, then a 2005 report that it would be gazetted. |
+
+**Gaps**
+
+- No online register found for Chinese associations, temples or schools in Cambodia.
+- Kazakhstan's state list could not be read (the legal portal refused automated access).
+- George Town's building inventory is not published online.
+- No downloadable list of US railway-worker sites.
+- 1c quotes and list counts were retrieved through a web-reading tool and need checking against their pages.
+
+## 1d. Non-site data
+
+| Finding | Detail |
+| --- | --- |
+| Best agreements source | China's Foreign Ministry treaty database is searchable and structured. 31 records match heritage keywords: 6 on illicit trafficking, 8 heritage-cooperation memoranda, 11 exhibition agreements from 1973-76. |
+| It is incomplete | It holds 5 country agreements on illicit trafficking plus the US memorandum, mostly up to 2009. Chinese media citing officials give 26 countries (2023) and 27 (2026); no public list was found. |
+| Wording shifts over time | Titles move from "exhibition of unearthed relics" (1970s) to "preventing theft and illicit export" and "cooperating to protect cultural heritage" (2005-09). |
+| Maritime Silk Road as a Belt and Road deliverable | The October 2023 Belt and Road Forum list commits NCHA to the Maritime Silk Road transnational nomination, a China-Saudi excavation at Serrin port, and an archaeological park at Nateshwar, Bangladesh. |
+| China funds other countries' nominations | Through UNESCO, China has supported World Heritage nominations and training in Africa since 2014. A USD 1 million fund (2025-2028) is named for Quanzhou. |
+| China-led organisation | The Alliance for Cultural Heritage in Asia became an intergovernmental organisation in June 2024. Its fund has announced two rounds of 15 projects. |
+| Structured UNESCO sources | The Core Data Portal gives project budgets by donor with spreadsheet downloads; the national heritage laws database has the same table for every country. |
+
+**Gaps**
+
+- No list of the 27 agreement countries.
+- No source found for Chinese companies in heritage work abroad.
+- The alliance's project lists appear only in news reports.
+- Summit outcome lists (China-Central Asia, FOCAC) not yet read.
 
 ## Further reading
 
